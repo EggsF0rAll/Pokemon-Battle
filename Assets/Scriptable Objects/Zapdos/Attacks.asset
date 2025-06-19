@@ -17,17 +17,17 @@ MonoBehaviour:
     maxDamage: 45
     attackTime: 2
     animationName: Scream
-    soundName: 
+    soundName: Zapdos_attack1
     particlesPrefab: {fileID: 0}
   - minDamage: 35
     maxDamage: 100
     attackTime: 2
     animationName: Armature
-    soundName: 
+    soundName: Zapdos_attack2
     particlesPrefab: {fileID: 0}
   - minDamage: 50
     maxDamage: 100
     attackTime: 2
     animationName: Attack Fly
-    soundName: 
+    soundName: Zapdos_attack3
     particlesPrefab: {fileID: 0}

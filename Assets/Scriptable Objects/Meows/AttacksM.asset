@@ -17,11 +17,11 @@ MonoBehaviour:
     maxDamage: 100
     attackTime: 3
     animationName: Attack1
-    soundName: 
+    soundName: Meow_attack
     particlesPrefab: {fileID: 0}
   - minDamage: 25
     maxDamage: 75
     attackTime: 2
     animationName: Punch
-    soundName: 
+    soundName: Meow_attack2
     particlesPrefab: {fileID: 0}

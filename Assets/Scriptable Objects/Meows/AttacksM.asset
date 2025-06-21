@@ -13,15 +13,23 @@ MonoBehaviour:
   m_Name: AttacksM
   m_EditorClassIdentifier: 
   attacks:
-  - minDamage: 15
+  - attackName: 
+    minDamage: 15
     maxDamage: 100
     attackTime: 3
     animationName: Attack1
     soundName: Meow_attack
-    particlesPrefab: {fileID: 0}
-  - minDamage: 25
+    hitParticlesPrefab: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784,
+      type: 3}
+    particlesPrefab: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784,
+      type: 3}
+  - attackName: 
+    minDamage: 25
     maxDamage: 75
     attackTime: 2
     animationName: Punch
     soundName: Meow_attack2
-    particlesPrefab: {fileID: 0}
+    hitParticlesPrefab: {fileID: 5824670795371433373, guid: f6fd568b816c64943a44efc3add3a881,
+      type: 3}
+    particlesPrefab: {fileID: 5824670795371433373, guid: f6fd568b816c64943a44efc3add3a881,
+      type: 3}

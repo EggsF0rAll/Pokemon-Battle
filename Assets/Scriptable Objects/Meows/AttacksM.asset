@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AttacksM
   m_EditorClassIdentifier: 
   attacks:
-  - attackName: 
+  - attackName: Florecitas Apendejadoras
     minDamage: 15
     maxDamage: 100
     attackTime: 3
@@ -23,7 +23,7 @@ MonoBehaviour:
       type: 3}
     particlesPrefab: {fileID: 2353600328335836179, guid: ceec7516237b4104b94300043ca39784,
       type: 3}
-  - attackName: 
+  - attackName: Putazo Sonico NUCLEAR
     minDamage: 25
     maxDamage: 75
     attackTime: 2

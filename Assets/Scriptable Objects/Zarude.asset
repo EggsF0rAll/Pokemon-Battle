@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfcf7d1de869de4cadaae036cbbea6f, type: 3}
+  m_Name: Zarude
+  m_EditorClassIdentifier: 
+  attacks:
+  - attackName: 'RUGIDO DE TRIPAS '
+    minDamage: 35
+    maxDamage: 100
+    attackTime: 2
+    animationName: Roar
+    soundName: Zarude_Roar
+    hitParticlesPrefab: {fileID: 8791802859087666345, guid: ae07f2a45f14a82428409cfe410e6002,
+      type: 3}
+    particlesPrefab: {fileID: 8791802859087666345, guid: ae07f2a45f14a82428409cfe410e6002,
+      type: 3}
+  - attackName: SUSTOTE ALV
+    minDamage: 25
+    maxDamage: 150
+    attackTime: 2
+    animationName: Boo
+    soundName: Zarude-Boo
+    hitParticlesPrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312,
+      type: 3}
+    particlesPrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312,
+      type: 3}
+  - attackName: "ARA\xD1AZO DESGARRA MADRES"
+    minDamage: 10
+    maxDamage: 35
+    attackTime: 2
+    animationName: Garra
+    soundName: Zarude_Blow
+    hitParticlesPrefab: {fileID: 1206498299807332555, guid: af6c1e3f046eecd4d81330aeb285600f,
+      type: 3}
+    particlesPrefab: {fileID: 8172849020266659018, guid: 2af5562ce69fc2d448481a1587a352a5,
+      type: 3}
